@@ -21,13 +21,14 @@
   
   section {
     height: 460px;
-    background-color: black;
+    background-image: linear-gradient(45deg, black, gray);
     color: white;
     padding: 24px 72px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   h1,
@@ -140,19 +141,21 @@
 }
 #sort:hover {
     cursor: pointer;
-    background-image: linear-gradient(45deg, blue, red);
+    background-image: linear-gradient(45deg, black, grey);
     opacity: .8;
     transition: .5s;
 }
 #filter:hover {
     cursor: pointer;
-    background-image: linear-gradient(45deg, blue, red);
+    background-image: linear-gradient(45deg, black, grey);
     opacity: .8;
     transition: .5s;
 }
 input[type=text]:hover {
-    background-image: linear-gradient(45deg, blue, red);
-    opacity: .8;
-    transition: .9s;
+    opacity: .3;
+    transition: .4s;
+    border-width: 1rem;
 }
-
+#trending p:hover {
+    
+}
